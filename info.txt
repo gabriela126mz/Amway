@@ -1,0 +1,3 @@
+npx create-react-app amway
+cd amway
+npm start
