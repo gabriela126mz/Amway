@@ -1,4 +1,4 @@
-
+// src/Home.js
 import React from 'react';
 import './css/Home.css';  // Importar los estilos CSS
 
@@ -17,11 +17,16 @@ const Home = () => {
           <p>Cuida tu cuerpo y responderá tu mente</p>
 
           <div className="home-title">
-            <h3>
+            <h4>
               VIDA SALUD Y BELLEZA
               <br />
-              <h5>en tu domicilio</h5>
-            </h3>
+              <h5>EN TU DOMICILIO</h5>
+            </h4>
+          </div>
+
+          {/* Agregar "Tratamientos Naturales" con borde negro */}
+          <div className="treatment-box">
+            <h2>Tratamientos Naturales</h2>
           </div>
         </div>
       </div>

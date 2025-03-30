@@ -1,47 +1,74 @@
 /* src/Home.css */
 
+/* Importar la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .home-content {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-  }
-  
-  .home-image img {
-    width: 70%;  /* Imagen grande ocupando el 70% del ancho */
-    height: auto;
-  }
-  
-  .home-text {
-    width: 25%;  /* Texto ocupando el 25% del ancho */
-    padding-left: 20px;
-  }
-  
-  .home-small-image {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .home-small-image img {
-    width: 150px;
-    height: auto;
-  }
-  
-  .home-title {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .home-title h1 {
-    font-size: 4rem;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.home-image img {
+  width: 70%;
+  height: auto;
+}
+
+.home-text {
+  width: 25%;
+  padding-left: 20px;
+}
+
+.home-small-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.home-small-image img {
+  width: 150px;
+  height: auto;
+}
+
+.home-title {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;  /* Cambiar fuente */
+  color: #6a4f3b;  /* Color marrón */
+}
+
+.home-title h4 {
+  font-size: 2.5rem;
+  font-weight: 600;  /* Fuente más gruesa para resaltar */
+  letter-spacing: 1px;  /* Espaciado entre letras */
+}
+
+.home-title h5 {
+  font-size: 1.5rem;
+  font-weight: 400;  /* Fuente más ligera */
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+/* Estilos para el nuevo texto "Tratamientos Naturales" */
+.treatment-box {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.treatment-box h2 {
+  font-size: 2rem;
+  margin: 0;
+}

@@ -1,3 +1,9 @@
 npx create-react-app amway
 cd amway
 npm start
+
+
+git add .
+git commit -m "home inicial"
+git push origin main
+
