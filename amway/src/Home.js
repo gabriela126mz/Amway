@@ -46,50 +46,49 @@ const Home = () => {
           <div className="home-section-two-text">
             <h2>¿Quienes somos?</h2>
             <p>
-            Te llevamos a casa lo que necesitas para que te sientas bien<br></br>
-            Como el tiempo es muy valioso y no lo debes perder, yendo y viniendo a un centro de belleza Y tu salud corporal, te llevamos a casa aquello que necesitas para tu cuidado y tu bienestar
+              Te llevamos a casa lo que necesitas para que te sientas bien.<br />
+              Como el tiempo es muy valioso y no lo debes perder, yendo y viniendo a un centro de belleza, y tu salud corporal, te llevamos a casa aquello que necesitas para tu cuidado y tu bienestar.
             </p>
           </div>
         </div>
       </section>
-      
-    {/* Sección 2: Nueva sección con imagen y texto a la derecha con enlaces */}
-    <section className="home-section-three">
-    <div className="home-section-three-content">
-        {/* Imagen a la izquierda */}
-        <div className="home-section-three-image">
-        <img src="/img/estirar.png" alt="Imagen izquierda" />
+
+      {/* Sección 3: Nueva sección con imagen y texto a la derecha con enlaces */}
+      <section className="home-section-three">
+        <div className="home-section-three-content">
+          {/* Imagen a la izquierda */}
+          <div className="home-section-three-image">
+            <img src="/img/estirar.png" alt="Imagen izquierda" />
+          </div>
+
+          {/* Texto a la derecha con enlaces */}
+          <div className="home-section-three-text">
+            <h2>
+              <a href="#home">Menú de Servicios</a>
+            </h2>
+            <ul>
+              <li><a href="#home">Tratamiento facial sónico</a></li>
+              <li><a href="#home">Presoterapia</a></li>
+              <li><a href="#home">Drenaje linfático</a></li>
+              <li><a href="#home">Análisis bioeléctrico cuántico</a></li>
+              <li><a href="#home">Tratamiento detox (Body Cleansing Program)</a></li>
+              <li><a href="#home">Adelgazamiento sin ninguna dieta</a></li>
+              <li><a href="#home">Tarifas tratamientos</a></li>
+              <li><a href="#home">Tu tienda</a></li>
+              <li><a href="#home">Contáctanos</a></li>
+            </ul>
+
+            {/* Imágenes en forma de "L" */}
+            <div className="home-section-three-images-l">
+              <div className="home-section-three-l-images">
+                <img src="/img/11.png" alt="Imagen pequeña 1" />
+                <img src="/img/13.png" alt="Imagen pequeña 2" />
+                <img src="/img/1.png" alt="Imagen pequeña 3" />
+              </div>
+            </div>
+          </div>
         </div>
-
-        {/* Texto a la derecha con enlaces */}
-        <div className="home-section-three-text">
-        <h2>
-            <a href="#home">menú de servicios</a>
-        </h2>
-        
-        <li>Tratamiento facial sónico</li>
-        <li>Presoterapia</li>
-        <li>DRENAJE LINFÁTICO</li>
-        <li>ANÁLISIS BIOELÉCTRICO CUÁNTICO</li>
-        <li>TRastamiento detox (Body Cleansing Program limpieza interior)</li>
-        <li>Adelgazamiento SIN NINGUNA DIETA</li>
-        <li>Tarifas tratamientos</li>
-        <li>TU TIENDA</li>
-        <li>contactanos</li>
-
-    {/* Imágenes en forma de "L" */}
-    <div className="home-section-three-images-l">
-        <div className="home-section-three-l-images">
-        <img src="/img/11.png" alt="Imagen pequeña 1" />
-        <img src="/img/13.png" alt="Imagen pequeña 2" />
-        <img src="/img/1.png" alt="Imagen pequeña 2" />
-        </div>
-        </div>
-    </div>
-    </div>
-    </section>
-
-
+      </section>
     </div>
   );
 };
