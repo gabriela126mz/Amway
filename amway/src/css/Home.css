@@ -1,0 +1,47 @@
+/* src/Home.css */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .home-image img {
+    width: 70%;  /* Imagen grande ocupando el 70% del ancho */
+    height: auto;
+  }
+  
+  .home-text {
+    width: 25%;  /* Texto ocupando el 25% del ancho */
+    padding-left: 20px;
+  }
+  
+  .home-small-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .home-small-image img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .home-title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .home-title h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  

@@ -14,13 +14,13 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <h1>Mi Web</h1>
       </div>
       {/* Menú de navegación */}
       <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/acerca">Acerca de</a></li>
-        <li><a href="/contacto">Contacto</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/acerca">Our Story</a></li>
+        <li><a href="/contacto">Details</a></li>
+        <li><a href="/contacto">RSVP</a></li>
       </ul>
       {/* Icono de hamburguesa para móviles */}
       <div className="navbar-toggle" onClick={toggleMenu}>
