@@ -14,7 +14,7 @@
 .home-section {
   width: 100%;
   padding: 50px 0;
-  background-color: #f4f4f4;
+  background-color: rgb(247, 237, 224);
   display: flex;
   align-items: center;
 }
@@ -126,12 +126,104 @@
 
 .home-section-two-text h2 {
   font-size: 3rem;  /* Texto grande */
-  color: #6a4f3b;  /* Color marrón */
+  color: #803813;;  /* Color marrón */
+  font-family: YAFdJnPX3ZE-0;
+    line-height: 1.08928571em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
 }
 
 .home-section-two-text p {
   font-size: 1.5rem;  /* Texto más grande */
-  color: #6a4f3b;  /* Color marrón */
+  color: #803813; /* Color marrón */
   margin-top: 20px;
   line-height: 1.6;
+  font-family: YAFdJnPX3ZE-0;
+    line-height: 1.08928571em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+
+/* Estilos para la nueva sección */
+.home-section-three {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #e2d1b3;  /* Fondo marrón claro */
+}
+
+.home-section-three-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.home-section-three-image {
+  width: 40%;
+}
+
+.home-section-three-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.home-section-three-text {
+  width: 35%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.home-section-three-text h2 a {
+  font-size: 2.5rem;
+  color: #6a4f3b; /* Color marrón */
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.home-section-three-text p {
+  font-size: 1.5rem;
+  color: #6a4f3b; /* Color marrón */
+  line-height: 1.6;
+}
+
+/* Imágenes en L (horizontal) */
+.home-section-three-images-l {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.home-section-three-l-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-section-three-l-images img {
+  width: 150px;
+  height: auto;
+}
+
+.home-section-three-l-text {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.home-section-three-l-text p {
+  font-size: 1.2rem;
+  color: #6a4f3b; /* Color marrón */
+  font-weight: 600;
 }

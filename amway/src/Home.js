@@ -52,6 +52,44 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
+    {/* Sección 2: Nueva sección con imagen y texto a la derecha con enlaces */}
+    <section className="home-section-three">
+    <div className="home-section-three-content">
+        {/* Imagen a la izquierda */}
+        <div className="home-section-three-image">
+        <img src="/img/estirar.png" alt="Imagen izquierda" />
+        </div>
+
+        {/* Texto a la derecha con enlaces */}
+        <div className="home-section-three-text">
+        <h2>
+            <a href="#home">menú de servicios</a>
+        </h2>
+        
+        <li>Tratamiento facial sónico</li>
+        <li>Presoterapia</li>
+        <li>DRENAJE LINFÁTICO</li>
+        <li>ANÁLISIS BIOELÉCTRICO CUÁNTICO</li>
+        <li>TRastamiento detox (Body Cleansing Program limpieza interior)</li>
+        <li>Adelgazamiento SIN NINGUNA DIETA</li>
+        <li>Tarifas tratamientos</li>
+        <li>TU TIENDA</li>
+        <li>contactanos</li>
+
+    {/* Imágenes en forma de "L" */}
+    <div className="home-section-three-images-l">
+        <div className="home-section-three-l-images">
+        <img src="/img/11.png" alt="Imagen pequeña 1" />
+        <img src="/img/13.png" alt="Imagen pequeña 2" />
+        <img src="/img/1.png" alt="Imagen pequeña 2" />
+        </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+
     </div>
   );
 };
