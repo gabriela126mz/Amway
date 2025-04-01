@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Amway/static/css/main.c54bf1fa.css",
+    "main.js": "/Amway/static/js/main.a8f44090.js",
+    "static/js/453.7ef3ab50.chunk.js": "/Amway/static/js/453.7ef3ab50.chunk.js",
+    "index.html": "/Amway/index.html",
+    "main.c54bf1fa.css.map": "/Amway/static/css/main.c54bf1fa.css.map",
+    "main.a8f44090.js.map": "/Amway/static/js/main.a8f44090.js.map",
+    "453.7ef3ab50.chunk.js.map": "/Amway/static/js/453.7ef3ab50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c54bf1fa.css",
+    "static/js/main.a8f44090.js"
+  ]
+}
