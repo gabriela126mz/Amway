@@ -9,12 +9,13 @@ const Home = () => {
       <section className="home-section">
         <div className="home-content">
           <div className="home-image">
-            <img src="/img/inicio.png" alt="Imagen Principal" />
+            <img src={`${process.env.PUBLIC_URL}/img/inicio.png`} alt="Foto" />
+
           </div>
           <div className="home-text">
             <p>BIENVENIDO</p>
-            <div className="home-small-image">
-              <img src="/img/pe.png" alt="Imagen pequeña" />
+            <div className="home-small-image">         
+             <img src={`${process.env.PUBLIC_URL}/img/pe.png`} alt="Foto 1" />
             </div>
             <p>Cuida tu cuerpo y responderá tu mente</p>
 
@@ -39,7 +40,7 @@ const Home = () => {
         <div className="home-section-two-content">
           {/* Imagen gigante a la izquierda */}
           <div className="home-section-two-image">
-            <img src="/img/otro.png" alt="Imagen gigante" />
+            <img src={`${process.env.PUBLIC_URL}/img/otro.png`} alt="Foto" />
           </div>
 
           {/* Título y texto a la derecha */}
@@ -58,7 +59,8 @@ const Home = () => {
         <div className="home-section-three-content">
           {/* Imagen a la izquierda */}
           <div className="home-section-three-image">
-            <img src="/img/estirar.png" alt="Imagen izquierda" />
+            <img src={`${process.env.PUBLIC_URL}/img/estirar.png`} alt="Foto" />
+            
           </div>
 
           {/* Texto a la derecha con enlaces */}
@@ -81,9 +83,9 @@ const Home = () => {
             {/* Imágenes en forma de "L" */}
             <div className="home-section-three-images-l">
               <div className="home-section-three-l-images">
-                <img src="/img/11.png" alt="Imagen pequeña 1" />
-                <img src="/img/13.png" alt="Imagen pequeña 2" />
-                <img src="/img/1.png" alt="Imagen pequeña 3" />
+                <img src={`${process.env.PUBLIC_URL}/img/11.png`} alt="Foto" />
+                <img src={`${process.env.PUBLIC_URL}/img/13.png`} alt="Foto" />
+                <img src={`${process.env.PUBLIC_URL}/img/1.png`} alt="Foto" />                
               </div>
             </div>
           </div>

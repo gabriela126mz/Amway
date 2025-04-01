@@ -7,3 +7,10 @@ git add .
 git commit -m "home inicial"
 git push origin main
 
+
+npm run build
+npm run deploy
+https://gabriela126mz.github.io/Amway
+
+
+npm start
