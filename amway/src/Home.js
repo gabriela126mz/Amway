@@ -91,6 +91,28 @@ const Home = () => {
           </div>
         </div>
       </section>
+  {/* Sección 4: Imágenes en forma de "L" con texto a la derecha */}
+        {/* Sección 4: Imágenes en forma de "L" con texto alineado a la izquierda */}
+        <section className="home-section-four">
+        <div className="home-section-four-content">
+          {/* Imagen cuadrada más grande a la izquierda */}
+          <div className="home-section-four-left">
+            <img className="square-image" src={`${process.env.PUBLIC_URL}/img/14.png`} alt="Foto" />
+          </div>
+          
+          {/* Texto alineado a la izquierda con formato marrón */}
+          <div className="home-section-four-text">
+            <h2><a href="#home">Tratamiento facial sónico</a></h2>
+            <h3>con Dermasonic:</h3>
+            <p>Dispositivo de limpieza facial sónico que utiliza vibraciones y pulsaciones ultrasónicas para limpiar profundamente la piel, eliminar impurezas, manchas, exceso de aceite y células muertas. Mejora la apariencia de los poros, reduce líneas finas, arrugas, ojeras y bolsas, aumentando la absorción de los tratamientos faciales un 99%.</p>
+            <p>Los resultados se notan en el momento.</p>
+          </div>
+        </div>
+        {/* Imagen horizontal debajo del texto e imagen cuadrada */}
+        <div className="home-section-four-bottom">
+          <img className="wide-image" src={`${process.env.PUBLIC_URL}/img/12.png`} alt="Foto" />
+        </div>
+      </section>
     </div>
   );
 };
