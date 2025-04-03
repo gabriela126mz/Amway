@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Amway/static/css/main.3f3b90e8.css",
-    "main.js": "/Amway/static/js/main.f5ba68e1.js",
+    "main.css": "/Amway/static/css/main.1f899cca.css",
+    "main.js": "/Amway/static/js/main.f3bf7378.js",
     "static/js/453.7ef3ab50.chunk.js": "/Amway/static/js/453.7ef3ab50.chunk.js",
     "index.html": "/Amway/index.html",
-    "main.3f3b90e8.css.map": "/Amway/static/css/main.3f3b90e8.css.map",
-    "main.f5ba68e1.js.map": "/Amway/static/js/main.f5ba68e1.js.map",
+    "main.1f899cca.css.map": "/Amway/static/css/main.1f899cca.css.map",
+    "main.f3bf7378.js.map": "/Amway/static/js/main.f3bf7378.js.map",
     "453.7ef3ab50.chunk.js.map": "/Amway/static/js/453.7ef3ab50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f3b90e8.css",
-    "static/js/main.f5ba68e1.js"
+    "static/css/main.1f899cca.css",
+    "static/js/main.f3bf7378.js"
   ]
 }
