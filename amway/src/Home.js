@@ -92,15 +92,15 @@ const Home = () => {
         </div>
       </section>
   {/* Sección 4: Imágenes en forma de "L" con texto a la derecha */}
-        {/* Sección 4: Imágenes en forma de "L" con texto alineado a la izquierda */}
-        <section className="home-section-four">
+      {/* Sección 4: Modo escritorio queda igual */}
+      <section className="home-section-four">
         <div className="home-section-four-content">
-          {/* Imagen cuadrada más grande a la izquierda */}
+          {/* Imagen cuadrada grande */}
           <div className="home-section-four-left">
             <img className="square-image" src={`${process.env.PUBLIC_URL}/img/14.png`} alt="Foto" />
           </div>
-          
-          {/* Texto alineado a la izquierda con formato marrón */}
+
+          {/* Texto alineado a la izquierda */}
           <div className="home-section-four-text">
             <h2><a href="#home">Tratamiento facial sónico</a></h2>
             <h3>con Dermasonic:</h3>
@@ -108,7 +108,8 @@ const Home = () => {
             <p>Los resultados se notan en el momento.</p>
           </div>
         </div>
-        {/* Imagen horizontal debajo del texto e imagen cuadrada */}
+
+        {/* Imagen horizontal grande debajo */}
         <div className="home-section-four-bottom">
           <img className="wide-image" src={`${process.env.PUBLIC_URL}/img/12.png`} alt="Foto" />
         </div>

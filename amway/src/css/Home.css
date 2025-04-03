@@ -285,10 +285,11 @@
 
 
 /*=====seccion 4=======*/
+/* ===== Sección 4 ===== */
 .home-section-four {
   width: 100%;
   padding: 50px 0;
-  background-color: rgb(247, 237, 224);
+  background-color: rgb(247, 237, 224); /* Mantiene el fondo marrón */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -302,8 +303,9 @@
   width: 100%;
 }
 
+/* Imagen cuadrada más grande */
 .home-section-four-left {
-  flex: 0 0 300px; /* Imagen cuadrada más grande */
+  flex: 0 0 300px;
 }
 
 .square-image {
@@ -312,9 +314,10 @@
   object-fit: cover;
 }
 
+/* Texto alineado a la izquierda */
 .home-section-four-text {
   flex: 1;
-  text-align: left; /* Alineación a la izquierda */
+  text-align: left;
   padding-left: 20px;
   color: #803813; /* Color marrón */
   font-family: 'Poppins', sans-serif;
@@ -333,6 +336,7 @@
   line-height: 1.6;
 }
 
+/* Imagen horizontal más grande */
 .home-section-four-bottom {
   width: 100%;
   display: flex;
@@ -343,6 +347,72 @@
 .wide-image {
   width: 100%;
   max-width: 1200px;
-  height: 250px; /* Imagen horizontal más grande */
+  height: 250px;
   object-fit: cover;
 }
+
+/* ===== Responsive Design (solo afecta móviles) ===== */
+@media (max-width: 768px) {
+  .home-section-four-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Orden correcto en móvil */
+  .home-section-four-text h2 {
+    order: 1; /* Primero el título */
+    text-align: center;
+  }
+
+  .home-section-four-left {
+    order: 2; /* Luego la imagen cuadrada */
+    width: 280px;
+  }
+
+  .square-image {
+    width: 280px;
+    height: 280px;
+  }
+
+  .home-section-four-text {
+    order: 3; /* Luego el texto */
+    padding-left: 0;
+  }
+
+  .home-section-four-bottom {
+    order: 4; /* Por último, la imagen horizontal */
+  }
+
+  .wide-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-section-four-left {
+    width: 220px;
+  }
+
+  .square-image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .home-section-four-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .home-section-four-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .home-section-four-text p {
+    font-size: 1.1rem;
+  }
+
+  .wide-image {
+    height: 180px;
+  }
+}
+
