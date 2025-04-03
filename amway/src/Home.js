@@ -114,6 +114,40 @@ const Home = () => {
           <img className="wide-image" src={`${process.env.PUBLIC_URL}/img/12.png`} alt="Foto" />
         </div>
       </section>
+      {/* Sección 5: Imagen a pantalla completa */}
+      <section className="home-section-five">
+        <img className="full-width-image" src={`${process.env.PUBLIC_URL}/img/captura.png`} alt="Imagen Completa" />
+      </section>
+    {/* Sección 6: Título central, subtítulo a la izquierda, texto más grande y una imagen más pequeña */}
+    <section className="home-section-six">
+      <h2 className="home-section-six-title">TÉCNICA DE PRESOTERAPIA</h2>
+
+      <div className="home-section-six-content">
+        {/* Texto a la izquierda más compacto */}
+        <div className="home-section-six-text">
+          <h3>PRESOTERAPIA</h3>
+          <p>
+            Es un tratamiento terapéutico no invasivo que utiliza dispositivos especiales para aplicar presión controlada en diferentes partes del cuerpo, como piernas, brazos y abdomen. Su objetivo es mejorar la circulación sanguínea y el drenaje linfático, reduciendo la retención de líquidos, aliviando la hinchazón y mejorando la apariencia de la piel y celulitis.
+          </p>
+          <p>
+            Se realiza mediante botas, mangas o fajas inflables que se ajustan al cuerpo. Estas prendas se inflan y desinflan secuencialmente, simulando un masaje que favorece el flujo de sangre y líquidos acumulados hacia los ganglios linfáticos.
+          </p>
+          <h4>BENEFICIOS:</h4>
+          <ul>
+            <li>Reducción de la retención de líquidos: Ayuda a eliminar el exceso de líquidos y toxinas, ideal para personas con edemas.</li>
+            <li>Mejora de la circulación sanguínea: Estimula el flujo sanguíneo, muy beneficioso para quienes tienen mala circulación o piernas cansadas.</li>
+            <li>Pérdida de peso: Contribuye a la reducción del volumen corporal y, junto con un plan de nutrición adecuado, favorece la pérdida de peso.</li>
+          </ul>
+        </div>
+
+        {/* Imagen más pequeña a la derecha */}
+        <div className="home-section-six-image">
+          <img src={`${process.env.PUBLIC_URL}/img/21.png`} alt="Imagen Derecha" />
+        </div>
+      </div>
+    </section>
+
+
     </div>
   );
 };
