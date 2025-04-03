@@ -692,3 +692,109 @@
     max-width: 350px;
   }
 }
+
+
+/*seccion 9*/
+/* ===== Sección 9 ===== */
+.home-section-nine {
+  width: 100%;
+  padding: 40px 0;
+  background-color: rgb(247, 237, 224);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-section-nine-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  width: 100%;
+  gap: 30px;
+}
+
+/* Columna izquierda (Texto alineado a la izquierda) */
+.home-section-nine-left {
+  flex: 1;
+  text-align: left;
+}
+
+.home-section-nine-title {
+  font-size: 1.5rem; /* Más pequeño */
+  color: #803813;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+}
+
+.home-section-nine-text {
+  font-size: 1rem; /* Más pequeño */
+  color: #803813;
+  line-height: 1.4; /* Más compacto */
+}
+
+/* Columna derecha (Imagen + Lista alineada a la izquierda) */
+.home-section-nine-right {
+  flex: 1;
+  text-align: left; /* Ahora todo está alineado a la izquierda */
+}
+
+.home-section-nine-image {
+  width: 90%; /* Más grande */
+  max-width: 400px; /* Limita el tamaño */
+  height: auto;
+  object-fit: cover;
+}
+
+.home-section-nine-subtitle {
+  font-size: 1.3rem; /* Más pequeño */
+  color: #803813;
+  margin-top: 10px;
+}
+
+.home-section-nine-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left; /* Alinea los elementos de la lista a la izquierda */
+  margin-top: 10px;
+}
+
+.home-section-nine-list li {
+  font-size: 1rem; /* Más pequeño */
+  color: #803813;
+  margin: 4px 0;
+  padding-left: 10px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .home-section-nine-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-section-nine-left {
+    text-align: center;
+  }
+
+  .home-section-nine-text {
+    font-size: 0.9rem; /* Más pequeño en móvil */
+  }
+
+  .home-section-nine-right {
+    text-align: center;
+  }
+
+  .home-section-nine-list {
+    text-align: left; /* Mantiene la alineación en móviles */
+    padding-left: 20px;
+  }
+
+  .home-section-nine-image {
+    max-width: 300px; /* Imagen grande en móviles */
+  }
+
+  .home-section-nine-list li {
+    font-size: 0.9rem;
+  }
+}

@@ -165,22 +165,60 @@ const Home = () => {
         </div>
       </section>
 
-  {/* Seccion 8 */}
-  <section className="home-section-eight">
-    <div className="home-section-eight-content">
-      {/* Columna izquierda con dos imágenes cuadradas (una debajo de la otra) */}
-      <div className="home-section-eight-left">
-        <img className="square-image" src={`${process.env.PUBLIC_URL}/img/i2.png`} alt="Imagen Cuadrada 1" />
-        <img className="square-image" src={`${process.env.PUBLIC_URL}/img/i3.png`} alt="Imagen Cuadrada 2" />
-      </div>
+    {/* Seccion 8 */}
+    <section className="home-section-eight">
+      <div className="home-section-eight-content">
+        {/* Columna izquierda con dos imágenes cuadradas (una debajo de la otra) */}
+        <div className="home-section-eight-left">
+          <img className="square-image" src={`${process.env.PUBLIC_URL}/img/i2.png`} alt="Imagen Cuadrada 1" />
+          <img className="square-image" src={`${process.env.PUBLIC_URL}/img/i3.png`} alt="Imagen Cuadrada 2" />
+        </div>
 
-      {/* Columna derecha con título y una imagen grande rectangular debajo */}
-      <div className="home-section-eight-right">
-        <h2 className="home-section-eight-title">TÉCNICA DE DRENAJE LINFÁTICO POR PRESOTERAPIA</h2>
-        <img className="wide-image" src={`${process.env.PUBLIC_URL}/img/v2.png`} alt="Imagen Rectangular" />
+        {/* Columna derecha con título y una imagen grande rectangular debajo */}
+        <div className="home-section-eight-right">
+          <h2 className="home-section-eight-title">TÉCNICA DE DRENAJE LINFÁTICO POR PRESOTERAPIA</h2>
+          <img className="wide-image" src={`${process.env.PUBLIC_URL}/img/v2.png`} alt="Imagen Rectangular" />
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+
+    {/* Seccion 9 */}
+    <section className="home-section-nine">
+        <div className="home-section-nine-content">
+          
+          {/* Columna izquierda: Título y Párrafo */}
+          <div className="home-section-nine-left">
+            <h2 className="home-section-nine-title">ANÁLISIS BIOELÉCTRICO CUÁNTICO</h2>
+            <p className="home-section-nine-text">
+            El analizador de resonancia magnética cuántica, es una innovación de alta tecnología que combina lo mejor de la medicina, la bioinformática, la ingeniería eléctrica y otras ciencias.<br></br>
+
+            Aplicando el dispositivo cuántico como base teórica, este avanzado equipo electrónico recoge el débil campo magnético de las células humanas para su análisis científico, analizando y determinando así a una persona' estado de salud y principales problemas y la formulación de recomendaciones estándar de prevención.<br></br>
+
+            es un complemento que, junto con pruebas médicas tradicionales que ya tengamos, nos permite obtener una visión global de nuestro estado de salud además de obtener información rápida sobre aspectos de nuestro bienestar básicos. La base de su funcionamiento son las señales de las ondas electromagnéticas que nuestro cuerpo emite constantemente y que son distintas dependiendo de si tenemos un buen estado de salud o no.<br></br>
+
+            Los beneficios de hacerse un test bio- eléctrico son múltiples, pero sobre todo podemos destacar la obtención de información de nuestro estado de salud general de forma rápida e indolora, podemos predecir anomalías que no presentan síntomas y nos permite evaluar si los tratamientos y las terapias seguidas están dando los resultados esperados.<br></br>
+            </p>
+          </div>
+
+          {/* Columna derecha: Imagen + Título + Lista */}
+          <div className="home-section-nine-right">
+            <img className="home-section-nine-image" src={`${process.env.PUBLIC_URL}/img/i4.png`} alt="Imagen Derecha" />
+            <h3 className="home-section-nine-subtitle">TIPOS DE ANÁLISIS</h3>
+            <ul className="home-section-nine-list">
+              <li>• Test de tóxicos del organismo</li>
+              <li>• Estado de nuestra salud cardiovascular y cerebrovascular</li>
+              <li>• Niveles de azúcar en sangre</li>
+              <li>• Niveles de vitaminas y minerales</li>
+              <li>• Densidad ósea</li>
+              <li>• Análisis detallado de órganos</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+
 
 
 
