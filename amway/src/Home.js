@@ -146,6 +146,42 @@ const Home = () => {
         </div>
       </div>
     </section>
+      {/* Seccion 7 */}
+      <section className="home-section-seven">
+        <h2 className="home-section-seven-title">TÉCNICA DE PRESOTERAPIA</h2>
+
+        <div className="home-section-seven-images">
+          <img className="image-left" src={`${process.env.PUBLIC_URL}/img/v1.png`} alt="Imagen Izquierda" />
+          <img className="image-right" src={`${process.env.PUBLIC_URL}/img/i1.png`} alt="Imagen Derecha" />
+        </div>
+
+        <div className="home-section-seven-text-container">
+          <h3 className="home-section-seven-subtitle">PRESOTERAPIA</h3>
+          <p className="home-section-seven-text">
+          La presoterapia puede ayudar a mejorar la circulación, reducir la retención de líquidos y aliviar la sensación de piernas cansadas.
+          <br></br>
+          Además de los beneficios mencionados, la presoterapia también puede ayudar a reducir la celulitis, mejorar la tonificación de la piel y aliviar el dolor muscular.
+          </p>
+        </div>
+      </section>
+
+  {/* Seccion 8 */}
+  <section className="home-section-eight">
+    <div className="home-section-eight-content">
+      {/* Columna izquierda con dos imágenes cuadradas (una debajo de la otra) */}
+      <div className="home-section-eight-left">
+        <img className="square-image" src={`${process.env.PUBLIC_URL}/img/i2.png`} alt="Imagen Cuadrada 1" />
+        <img className="square-image" src={`${process.env.PUBLIC_URL}/img/i3.png`} alt="Imagen Cuadrada 2" />
+      </div>
+
+      {/* Columna derecha con título y una imagen grande rectangular debajo */}
+      <div className="home-section-eight-right">
+        <h2 className="home-section-eight-title">TÉCNICA DE DRENAJE LINFÁTICO POR PRESOTERAPIA</h2>
+        <img className="wide-image" src={`${process.env.PUBLIC_URL}/img/v2.png`} alt="Imagen Rectangular" />
+      </div>
+    </div>
+  </section>
+
 
 
     </div>
